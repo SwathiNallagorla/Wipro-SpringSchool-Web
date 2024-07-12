@@ -1,0 +1,58 @@
+header{
+    background-color: aqua;
+    height: 50%;
+  
+
+}
+.header-items{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+   
+    
+}
+footer{
+    background-color: aqua;
+    height: 90px;
+}
+
+.container{
+    background-color: bisque;
+    text-align: justify;
+    
+}
+
+
+.img{
+
+    
+    padding: 5px;
+     width: 50px;
+     height: 65px;
+
+}
+
+
+
+@media screen  and (max-width:450px){
+
+    .button{
+        width: 15px;
+        height: 15px;
+        padding: 3px;
+       
+    }
+}
+@media screen  and (max-width:450px){
+
+    h1{
+        align-content: center;
+    }
+}
+@media screen  and (max-width:768px){
+
+    h1{
+        align-content: center;
+    }
+}
